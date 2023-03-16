@@ -1,0 +1,35 @@
+{
+  "name": "openmusic-api",
+  "version": "1.0.0",
+  "description": "project API OPENMUSIC",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js",
+    "lint": "eslint ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/femuilproject/openmusic-api.git"
+  },
+  "author": "febbymuhammadilham",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/femuilproject/openmusic-api/issues"
+  },
+  "homepage": "https://gitlab.com/femuilproject/openmusic-api#readme",
+  "dependencies": {
+    "@hapi/hapi": "^21.3.0",
+    "dotenv": "^16.0.3",
+    "joi": "^17.8.4",
+    "nanoid": "^4.0.1",
+    "node-pg-migrate": "^6.2.2",
+    "pg": "^8.10.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.36.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "nodemon": "^2.0.21"
+  }
+}
